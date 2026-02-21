@@ -1,0 +1,3 @@
+C:/Users/knigh/Desktop/Repos/WebScrapingCPP/build/CMakeFiles/WebScraper.dir
+C:/Users/knigh/Desktop/Repos/WebScrapingCPP/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/knigh/Desktop/Repos/WebScrapingCPP/build/CMakeFiles/ZERO_CHECK.dir
