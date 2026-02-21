@@ -1,0 +1,20 @@
+# Visual Studio / VS Code folders
+.vscode/
+build/
+out/
+bin/
+obj/
+
+# vcpkg (The biggest one - do NOT upload this)
+vcpkg/
+
+# Compiled binaries and libraries
+*.exe
+*.dll
+*.lib
+*.pdb
+*.sln
+
+# System Files
+.DS_Store
+Thumbs.db
