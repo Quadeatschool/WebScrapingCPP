@@ -36,11 +36,11 @@ To recreate the development environment, you need the following software and/or 
 
 I found these websites useful in developing this software:
 
-* libcurl Documentation
+* [libcurl Documentation](https://curl.se/libcurl/c/)
 
-* Gumbo Parser GitHub
+* [Gumbo Parser GitHub](https://github.com/google/gumbo-parser)
 
-* C++ Reference (Iterators and Vectors)
+* [C++ Reference (Iterators and Vectors)](https://en.cppreference.com/w/cpp/container/vector.html)
 
 ## Future Work
 
