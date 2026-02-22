@@ -9,6 +9,9 @@
     <CustomBuild Include="C:\Users\knigh\Desktop\Repos\WebScrapingCPP\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
+    <Natvis Include="C:\Users\knigh\Desktop\Repos\WebScrapingCPP\vcpkg\installed\x64-windows\share\nlohmann_json\nlohmann_json.natvis" />
+  </ItemGroup>
+  <ItemGroup>
     <Filter Include="Source Files">
       <UniqueIdentifier>{55C33F43-C24A-32CE-BE92-82AC16805657}</UniqueIdentifier>
     </Filter>

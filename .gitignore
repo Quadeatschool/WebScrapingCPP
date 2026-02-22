@@ -1,20 +1,22 @@
-# Visual Studio / VS Code folders
-.vscode/
+# --- Build Outputs ---
 build/
-out/
 bin/
-obj/
-
-# vcpkg (The biggest one - do NOT upload this)
-vcpkg/
-
-# Compiled binaries and libraries
+out/
 *.exe
-*.dll
-*.lib
-*.pdb
-*.sln
+*.o
+*.obj
 
-# System Files
+# --- VCPKG (Crucial: Don't upload 1GB of libraries) ---
+vcpkg/
+vcpkg_installed/
+
+# --- IDE & System ---
+.vscode/
+.vs/
 .DS_Store
-Thumbs.db
+*.user
+
+# --- Project Specific Data ---
+# We ignore the output and the targets so your GitHub stays clean
+articles.json
+targets.txt

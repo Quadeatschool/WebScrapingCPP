@@ -12,10 +12,12 @@ find_package(CURL REQUIRED)
 # 2. Find Gumbo (Using the "vcpkg-friendly" name)
 # Some versions of gumbo in vcpkg use 'unofficial-gumbo'
 find_package(unofficial-gumbo CONFIG REQUIRED)
+find_package(nlohmann_json CONFIG REQUIRED)
 
 # 3. Add your source code
+include_directories(include)
 add_executable(${PROJECT_NAME} src/main.cpp)
 
 # 4. Link the libraries
 # We use the unofficial namespace for gumbo here
-target_link_libraries(${PROJECT_NAME} PRIVATE CURL::libcurl unofficial::gumbo::gumbo)
+target_link_libraries(${PROJECT_NAME} PRIVATE CURL::libcurl unofficial::gumbo::gumbo nlohmann_json::nlohmann_json)
