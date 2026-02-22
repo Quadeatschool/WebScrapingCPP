@@ -1,4 +1,3 @@
-```
 # Article Web Scraper CLI
 
 A high-performance C++ tool designed to automate the extraction of titles and body text from web articles. This project demonstrates proficiency in systems integration by combining networking via libcurl, HTML5 parsing with Gumbo, and data serialization with nlohmann-json.
