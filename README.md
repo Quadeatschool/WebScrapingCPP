@@ -4,6 +4,26 @@ A high-performance C++ tool designed to automate the extraction of titles and bo
 
 ## Instructions for Build and Use
 
+### One-Command Run (Recommended)
+
+From the project root, run one command to configure, build, and execute:
+
+```powershell
+.\run.ps1
+```
+
+Optional release build:
+
+```powershell
+.\run.ps1 -Config Release
+```
+
+If you prefer Command Prompt or double-clicking a file, use:
+
+```bat
+run.bat
+```
+
 ### Software Demo
 
 Steps to build and/or run the software:
