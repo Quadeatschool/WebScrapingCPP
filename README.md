@@ -6,6 +6,8 @@ A high-performance C++ tool designed to automate the extraction of titles and bo
 
 ### One-Command Run (Recommended)
 
+
+
 From the project root, run one command to configure, build, and execute:
 
 ```powershell
@@ -25,6 +27,8 @@ run.bat
 ```
 
 ### Software Demo
+
+[Software Demo](https://youtu.be/9dZ1kIxXJdI)
 
 Steps to build and/or run the software:
 
